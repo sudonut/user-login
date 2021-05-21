@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bg-image {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background: url(/public/imgs/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: -1;
+}
+
+.content-wrap {
+  height: 73%;
+  min-width: 26%;
+  background: #22264c;
+  border-radius: 25px;
+  color: white;
+}
+
+.form-container {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.user-info {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.user-info h2 {
+  font-weight: 300;
+  font-size: 2.2rem;
+}
+
+.user-info button {
+  height: 3rem;
+  width: 8rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  border: none;
+  border-radius: 10px;
+  background: -webkit-gradient(linear, left top, right top, from(#a131bb), to(#5c3dd9));
+  background: linear-gradient(90deg, #a131bb 0%, #5c3dd9 100%);
+}
+
+.form-item {
+  height: 8%;
+  width: 69%;
+  padding: 11px;
+  background: none;
+  font-size: 1.4rem;
+  font-weight: 200;
+  border: none;
+  border-bottom: 0.01em solid grey;
+}
+
+.form-item:focus {
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
