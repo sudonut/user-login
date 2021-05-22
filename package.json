@@ -1,0 +1,29 @@
+{
+  "name": "user-login-form",
+  "version": "1.0.0",
+  "description": "A signup and login application using HTML / CSS / JS / Node JS / Mongo DB",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudonut/user-login.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudonut/user-login/issues"
+  },
+  "homepage": "https://github.com/sudonut/user-login#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.8",
+    "mongoose": "^5.12.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
