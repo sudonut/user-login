@@ -14,9 +14,9 @@
     <div class="bg-image"></div>
     <main class="content-wrap">
       <div class="form-container">
-        <form action="/" method="POST" class="user-info" id="user-form">
+        <form action="/" method="POST" class="user-info" id="user-form" onsubmit="return formValidate()">
           <h2>Get on board!</h2>
-          <input type="text" class="form-item" placeholder="Username" name="username" id="user-name" required>
+          <input type="text" class="form-item" placeholder="Username" name="username" id="user-name" >
           <input type="email" class="form-item" placeholder="Email" name="email" id="email" required>
           <input type="password" class="form-item" placeholder="Password" name="password" id="password" required>
           <input type="password" class="form-item" placeholder="Confirm Password" id="password-confirm" required>
